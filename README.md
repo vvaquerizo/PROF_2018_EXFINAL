@@ -9,7 +9,7 @@
 
 3. Cree una rama con nombre “trabajo” en su repositorio. Todo lo que se pide en el examen deberá realizarse en esta rama.
 
-4. Elimine la dependencia que existe entre Greeting y la clase de java.util.Calendar, utilizando inyección de dependencia. Denomine a la clase inyectable MyCalendar.
+4. Elimine la dependencia que existe entre Greeting y la clase java.util.Calendar, utilizando inyección de dependencia. Denomine a la clase inyectable MyCalendar.
 
 5. Realice un commit de los cambios. El comentario debe ser significativo.
 
@@ -17,7 +17,7 @@
 
 7. Realice un commit de los cambios. El comentario debe ser significativo.
 
-8. Realice las comprobaciones indicadas a continuación:
+8. Realice las tareas indicadas a continuación:
 
 ..a. Replique el test smokeTest1(). Puede llamarle smokeTest4(). Debe comprobar que smokeTest4() invoca una vez al método Message.getDefaultMessage(), y una vez al método Message.getMessage().
 
