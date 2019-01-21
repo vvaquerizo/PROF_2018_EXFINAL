@@ -32,5 +32,14 @@ public class GreetingTest {
 		Greeting greeting = new Greeting(calendar);
 		assertEquals("Buenos días", greeting.getGreeting(Language.SPANISH));
 	}
+	
+	@Test
+	public void smokeTest4() {
+		MyCalendar calendar = mock(MyCalendar.class);
+		when(calendar.get(Calendar.HOUR_OF_DAY)).thenReturn(8);
+		Greeting greeting = new Greeting(calendar);
+		assertEquals("Good morning", greeting.getGreeting(null));
+		
+	}
 
 }
